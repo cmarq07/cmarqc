@@ -4,6 +4,7 @@ var aboutButton = document.getElementById("aboutButton");
 var resumeButton = document.getElementById("resumeButton");
 var projectsButton = document.getElementById("projectsButton");
 var contactButton = document.getElementById("contactButton");
+var githubButton = document.getElementById("github");
 var instagramButton = document.getElementById("instagram");
 var linkedInButton = document.getElementById("linkedIn");
 
@@ -13,6 +14,7 @@ aboutButton.onclick = about;
 resumeButton.onclick = resume;
 projectsButton.onclick = projects;
 contactButton.onclick = contact;
+githubButton.onclick = githubLink;
 instagramButton.onclick = instagramLink;
 linkedInButton.onclick = linkedInLink;
 
@@ -45,6 +47,9 @@ function contact() {
 }
 
 //Social Functions
+function githubLink() {
+	window.open("https://github.com/cmarq07", "_blank");
+}
 function instagramLink() {
 	window.open("https://www.instagram.com/cmarq07/", "_blank");
 }

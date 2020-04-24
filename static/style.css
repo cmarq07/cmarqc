@@ -105,6 +105,12 @@
 		right:0;
 		bottom:4.5vh;
 	}
+	#github {
+		background-image:url("../images/github_empty.png");
+	}
+	#github:hover {
+		background-image:url("../images/github_filled.png");
+	}
 	#instagram {
 		background-image:url("../images/instagram_empty.png");
 	}
