@@ -19,7 +19,7 @@ locations[2] = ship0 + 2;
 
 guessButton.onclick = playGame;
 /*THIS IS USED IF YOU WANT TO "CHEAT". IT SHOWS THE LOCATION OF THE SHIP ON THE FIRST RUN, REMOVE THE COMMENT*/
-alert("Correct: " + locations[0] + " " + locations[1] + " " + locations[2]);
+//alert("Correct: " + locations[0] + " " + locations[1] + " " + locations[2]);
 
 function playGame() {
 	
@@ -137,6 +137,6 @@ function reset() {
 	locations[1] = ship0 + 1;
 	locations[2] = ship0 + 2;
 	/*THIS IS USED IF YOU WANT TO "CHEAT". IT SHOWS THE LOCATION OF THE SHIP ON THE FIRST RUN, REMOVE THE COMMENT*/
-	alert("Correct: " + locations[0] + " " + locations[1] + " " + locations[2]);
+	//alert("Correct: " + locations[0] + " " + locations[1] + " " + locations[2]);
 	guessButton.onclick = playGame;
 }
