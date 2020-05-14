@@ -166,6 +166,18 @@
 		box-shadow:20px 20px 20px black;
 		text-shadow:2px 2px 1.5px black;
 	}
+	.section2 {
+		background-color:rgba(255, 26, 26, 0.77);
+		max-width:60%;
+		font-size:3vh;
+		color:white;
+		border-radius:10px;
+		margin: 0 auto;
+		margin-bottom: 1vh;
+		padding:1vw;
+		box-shadow:20px 20px 20px black;
+		text-shadow:2px 2px 1.5px black;
+	}
 	
 	
 	/* Resume Page Styling */
@@ -230,6 +242,10 @@
 		border-radius: 25px;
 		outline:none;
 		margin-bottom:2vh;
+	}
+	.invalid {
+		border-color:rgb(255, 0, 0);
+		border-width:3px;
 	}
 	
 	/* Dropdown Menus */
