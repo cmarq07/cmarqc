@@ -22,13 +22,14 @@
 	<h1 id = "title">Contact</h1>
 	<hr>
 	
-	<form action = "https://formspree.io/mbjanbvz" id = "contactForm" class ="centerText" method = "POST">
+	<form name = "contactForm" action = "https://formspree.io/mbjanbvz" 
+			id = "contactForm" class ="centerText" onsubmit="return validateForm()" method = "POST">
 		<input type = "text" id = "nameField" name = "name" placeholder = "Name" 
-		class = "inputForm" maxlength = "25">
+				class = "inputForm" maxlength = "25">
 		<input type = "email" id = "emailField" name = "email" placeholder = "Email" 
-		class = "inputForm" maxlength = "30">
+				class = "inputForm" maxlength = "30">
 		<textarea id = "messageField" class = "inputForm" name = "message"
-		placeholder = "Message (300 Characters Max)" maxlength = "300"></textarea>
+				placeholder = "Message (300 Characters Max)" maxlength = "300"></textarea>
 		<br>
 		<input type = "submit" id = "submitButton" value = "Submit">
 	</form>
@@ -44,6 +45,7 @@
 	<strong>© 2020 Christian Calloway</strong> - All Rights Reserved
 	</section>
 	<script src = "static/scripts.js"></script>
+	<script src = "static/contact.js"></script>
 </body>
 
 </html>
