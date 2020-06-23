@@ -7,8 +7,8 @@
 		margin:0;
 	}
 	body {
-		background-color:#330000; /* Red Background (Default) */
-		/*background-color:#262626;*/ /* Gray Background */
+		/*background-color:#330000;*/ /* Red Background (Default) */
+		background-color:#262626; /* Gray Background */
 	}
 	#home {
 		background-image:url("../images/home.jpg");
@@ -21,7 +21,7 @@
 	
 	/* Menu Elements */
 	#menu {
-		background: linear-gradient(to top, #b30000 0%, #e60000 100%);
+		background: linear-gradient(to top, #990000 0%, #cc0000 100%);
 		padding:1vw;
 		box-shadow:0 15px 20px black;
 	}
@@ -60,7 +60,7 @@
 		font-size:8vh;
 		text-transform:uppercase;
 		text-align:center;
-		color:red;
+		color:white;
 		text-shadow:5px 5px 5px black;
 	}
 	.subtitle {
@@ -72,7 +72,7 @@
 		font-size:2.5vh;
 	}
 	.pageLink {
-		color:red;
+		color:white;
 		font-size:3vh;
 		margin-right:1vw;
 		text-shadow:2px 2px 1px black;
@@ -82,6 +82,9 @@
 		text-decoration:underline;
 	}
 	.pageLink:visited {
+		color:white;
+	}
+	.pageLink:visited:hover {
 		color:red;
 	}
 	.centerText {
@@ -321,7 +324,8 @@
 		pointer-events: none;
 	}
 	hr {
-		border-color:#660000;
+		/*border-color:#660000;*/ /* Red (Default) */
+		border-color:black;
 		width:85%;
 		margin-bottom:7vh;
 	}
