@@ -13,38 +13,65 @@
 
 <body>
 	<nav id = "menu">
-		<div id = "homeButton" class = "menuButton clickable">Home</div> <div id = "aboutButton" class = "menuButton currentMenuButton">About</div> <div id = "resumeButton" class = "menuButton clickable">Résumé</div> <div id = "projectsButton" class = "menuButton clickable">Projects</div> <div id = "contactButton" class = "menuButton clickable">Contact</div>
+		<div id = "homeButton" class = "menuButton clickable"><a title = "Home">Home</a></div><span class = "unselectable">
+		</span><div id = "aboutButton" class = "menuButton clickable"><a title = "About">About</a></div><span class = "unselectable">
+		</span><div id = "resumeButton" class = "menuButton clickable"><a title = "Résumé">Résumé</a></div><span class = "unselectable">
+		</span><div id = "projectsButton" class = "menuButton currentMenuButton"><a title = "Projects">Projects</a></div><span class = "unselectable">
+		</span><div id = "coursesButton" class = "menuButton clickable"><a title = "Courses">Courses</a></div><span class = "unselectable">
+		</span><div id = "contactButton" class = "menuButton clickable"><a title = "Contact">Contact</a></div>
 	</nav>
 	
 	<h1 id = "title">Projects</h1>
 	<hr>
 	
-	<button class="dropdownButton">Sinking Ships Game</button>
-	<div class="content">
-		<p class = "subtitle">Simple Battleship game. Input a number and see if that corresponds to the location of a ship.<br>
-		Web-based game that uses only HTML, CSS, and JavaScript
+	<!-- Programming Projects -->
+	<div>
+		<h2 class = "centerText">Programming Projects</h2>
+		<button class="dropdownButton">Explore UW</button>
+		<div class="content">
+			<p class = "subtitle">A student project made by me and my roommate that helps first year
+			University of Washington students navigate different aspects of the college life, including the
+			campus map, major system, and more!
+			<br>
+			<a href = "https://cmarq07.github.io/Explore-UW/" target = "_blank"
+			class = "pageLink">Click to Visit Site</a></p>
+		</div>
 		<br>
-		<a href = "myprojects/sinkingships/sinking_ships.html" target = "_blank"
-		class = "pageLink">Click to Play</a></p>
-	</div>
-	<br>
-	<button class="dropdownButton">Rock, Paper, Scissors Game</button>
-	<div class="content">
-		<p class = "subtitle">Everybody knows this classic! (WIP)
+		<button class="dropdownButton">Sinking Ships Game</button>
+		<div class="content">
+			<p class = "subtitle">Simple Battleship game. Input a number and see if that corresponds to the location of a ship.<br>
+			Web-based game that uses only HTML, CSS, and JavaScript
+			<br>
+			<a href = "myprojects/sinkingships/sinking_ships.html" target = "_blank"
+			class = "pageLink">Click to Play</a></p>
+		</div>
 		<br>
-		<a href = "myprojects/rockpaperscissors/rock_paper_scissors.html" target = "_blank"
-		class = "pageLink">Click to Play</a></p>
+		<button class="dropdownButton">Rock, Paper, Scissors Game</button>
+		<div class="content">
+			<p class = "subtitle">Everybody knows this classic! (WIP)
+			<br>
+			<a href = "myprojects/rockpaperscissors/rock_paper_scissors.html" target = "_blank"
+			class = "pageLink">Click to Play</a></p>
+		</div>
+		<br>
 	</div>
-	<br>
+	
+	<!-- Art -->
+	<div>
+		<h2 class = "centerText">Art / Media</h2>
+		<button class="dropdownButton">Coming Soon</button>
+		
+	</div>
+	
 	
 	<!--Social Media Buttons-->
 	<div id = "socials">
-		<div id = "github" class = "socialButton"></div>
-		<div id = "instagram" class = "socialButton"></div>
-		<div id = "linkedIn" class = "socialButton"></div>
+		<a title = "GitHub"><div id = "github" class = "socialButton"></div></a><span class = "unselectable">
+		</span><a title = "Instagram"><div id = "instagram" class = "socialButton"></div></a><span class = "unselectable">
+		</span><a title = "LinkedIn"><div id = "linkedIn" class = "socialButton"></div></a>
 	</div>
 	
-	<div id = "copyright">
+	<div id = "scrollCopyright">
 	<strong>© 2020 Christian Calloway</strong> - All Rights Reserved
 	</div>
 	<script src = "static/scripts.js"></script>

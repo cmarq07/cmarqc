@@ -14,7 +14,12 @@
 
 <body id = "home">
 	<nav id = "menu">
-		<div id = "homeButton" class = "menuButton clickable">Home</div> <div id = "aboutButton" class = "menuButton currentMenuButton">About</div> <div id = "resumeButton" class = "menuButton clickable">Résumé</div> <div id = "projectsButton" class = "menuButton clickable">Projects</div> <div id = "contactButton" class = "menuButton clickable">Contact</div>
+		<div id = "homeButton" class = "menuButton currentMenuButton"><a title = "Home">Home</a></div><span class = "unselectable">
+		</span><div id = "aboutButton" class = "menuButton clickable"><a title = "About">About</a></div><span class = "unselectable">
+		</span><div id = "resumeButton" class = "menuButton clickable"><a title = "Résumé">Résumé</a></div><span class = "unselectable">
+		</span><div id = "projectsButton" class = "menuButton clickable"><a title = "Projects">Projects</a></div><span class = "unselectable">
+		</span><div id = "coursesButton" class = "menuButton clickable"><a title = "Courses">Courses</a></div><span class = "unselectable">
+		</span><div id = "contactButton" class = "menuButton clickable"><a title = "Contact">Contact</a></div>
 	</nav>
 	
 	<h1 id = "title">Welcome!</h1>
@@ -22,12 +27,18 @@
 	<section id = "intro" class "section"><p>Hello there! My name is Christian Calloway. 
 	I currently attend the University of Washington. 
 	I am currently majoring in Informatics with a plan to double major or minor in business.</p></section>
+	<br>
+	
+	<section id = "intro" class "section"><p>I built this site from scratch using HTML, CSS, and
+	JavaScript. You can visit my
+	social media like Github, Instagram, and LinkedIn. You can also see pages about me, my resume, creations, and courses I offer to people as a side job.
+	You can also contact me if you wish for anything about the site or other. Hope you enjoy!</p></section>
 	
 	<!--Social Media Buttons-->
 	<div id = "socials">
-		<div id = "github" class = "socialButton"></div>
-		<div id = "instagram" class = "socialButton"></div>
-		<div id = "linkedIn" class = "socialButton"></div>
+		<a title = "GitHub"><div id = "github" class = "socialButton"></div></a><span class = "unselectable">
+		</span><a title = "Instagram"><div id = "instagram" class = "socialButton"></div></a><span class = "unselectable">
+		</span><a title = "LinkedIn"><div id = "linkedIn" class = "socialButton"></div></a>
 	</div>
 	
 	<div id = "copyright">

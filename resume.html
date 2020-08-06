@@ -14,7 +14,12 @@
 
 <body>
 	<nav id = "menu">
-		<div id = "homeButton" class = "menuButton clickable">Home</div> <div id = "aboutButton" class = "menuButton currentMenuButton">About</div> <div id = "resumeButton" class = "menuButton clickable">Résumé</div> <div id = "projectsButton" class = "menuButton clickable">Projects</div> <div id = "contactButton" class = "menuButton clickable">Contact</div>
+		<div id = "homeButton" class = "menuButton clickable"><a title = "Home">Home</a></div><span class = "unselectable">
+		</span><div id = "aboutButton" class = "menuButton clickable"><a title = "About">About</a></div><span class = "unselectable">
+		</span><div id = "resumeButton" class = "menuButton currentMenuButton"><a title = "Résumé">Résumé</a></div><span class = "unselectable">
+		</span><div id = "projectsButton" class = "menuButton clickable"><a title = "Projects">Projects</a></div><span class = "unselectable">
+		</span><div id = "coursesButton" class = "menuButton clickable"><a title = "Courses">Courses</a></div><span class = "unselectable">
+		</span><div id = "contactButton" class = "menuButton clickable"><a title = "Contact">Contact</a></div>
 	</nav>
 	
 	<h1 id = "title">Résumé</h1>
@@ -41,7 +46,7 @@
 			<div class = "section"><img src = "./images/uws.png" class = "resumeImage" alt = "uws">
 			University of Washington - Seattle || 2019 - Current
 			<br><text class = "subtitle">B.S in Informatics</text>
-			<br><text class = "subtext">• <strong>GPA:</strong> 3.59
+			<br><text class = "subtext">• <strong>GPA:</strong> 3.58
 			<br>• <strong>Dean's List</strong> '19-20
 			<br>• <strong>Notable Courses:</strong> CSE 143, INFO 200, ECON 200
 			</div>
@@ -85,7 +90,7 @@
 	</section>
 	<!-- Experience Section -->
 	<section id = "experienceSection">
-		<h2 class = "centerText">Experience</h2>
+		<h2 class = "centerText">Work Experience</h2>
 		<p>
 			<div class = "section"><img src = "./images/sano.png" class = "resumeImage" alt = "sano">
 			Sano Café || Mercer Island, WA || January 2018 - June 2019
@@ -116,9 +121,9 @@
 	
 	<!--Social Media Buttons-->
 	<div id = "socials">
-		<div id = "github" class = "socialButton"></div>
-		<div id = "instagram" class = "socialButton"></div>
-		<div id = "linkedIn" class = "socialButton"></div>
+		<a title = "GitHub"><div id = "github" class = "socialButton"></div></a><span class = "unselectable">
+		</span><a title = "Instagram"><div id = "instagram" class = "socialButton"></div></a><span class = "unselectable">
+		</span><a title = "LinkedIn"><div id = "linkedIn" class = "socialButton"></div></a>
 	</div>
 	
 	<div id = "scrollCopyright">
