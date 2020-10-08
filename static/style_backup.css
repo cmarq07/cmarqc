@@ -1,0 +1,365 @@
+	/* Main */
+	body, html {
+		font-family:"segoe ui";
+		display:table;
+		height:100%;
+		width:100%;
+		margin:0;
+	}
+	body {
+		/*background-color:#330000;*/ /* Red Background (Default) */
+		background-color:#262626; /* Gray Background */
+	}
+	#home {
+		background-image:url("../images/home.jpg");
+		webkit-background-size:cover;
+		moz-background-size:cover;
+		o-background-size:cover;
+		background-size:cover;
+	}
+	
+	
+	/* Menu Elements */
+	#menu {
+		background: linear-gradient(to top, #990000 0%, #cc0000 100%);
+		padding:1vw;
+		box-shadow:0 15px 20px black;
+	}
+	.menuButton {
+		background-color:rgba(255, 255, 255, 0);
+		border-radius:100px;
+		border-color:rgba(255, 255, 255, 0);
+		display:inline-block;
+		font-family:"trebuchet ms";
+		font-size:2vw;
+		font-weight:bold;
+		padding:0 1vw 0 1vw;
+		text-transform:uppercase;
+		margin-right:1vw;
+		color:#d9d9d9;
+		text-shadow:2px 2px 7px black;
+		
+	}
+	.menuButton:hover {
+		background: linear-gradient(to top, #ff1a1a 0%, #ff3333 100%);
+		color: white;
+	}
+	.currentMenuButton {
+		background: linear-gradient(to top, #545454 0%, #616161 100%);
+		color:white;
+	}
+	.currentMenuButton:hover {
+		background: linear-gradient(to top, #545454 0%, #616161 100%);
+	}
+	.clickable {
+		cursor:pointer;
+	}
+	
+	/* Text Elements */
+	#title {
+		font-size:8vh;
+		text-transform:uppercase;
+		text-align:center;
+		color:white;
+		text-shadow:5px 5px 5px black;
+	}
+	.subtitle {
+		color:white;
+		font-size:2.7vh;
+	}
+	.subtext {
+		color:#cccccc;
+		font-size:2.5vh;
+	}
+	.pageLink {
+		color:white;
+		font-size:3vh;
+		margin-right:1vw;
+		text-shadow:2px 2px 1px black;
+		text-decoration:none;
+	}
+	.pageLink:hover {
+		text-decoration:underline;
+	}
+	.pageLink:visited {
+		color:white;
+	}
+	.pageLink:visited:hover {
+		color:white;
+	}
+	.centerText {
+		text-align:center;
+	}
+	h2 {
+		font-size:5vh;
+		color:white;
+		text-shadow:2px 3px 0 #595959;
+	}
+	
+	
+	/* Social Media Elements */
+	#socials {
+		position:absolute;
+		top:0.5vh;
+		right:0;
+	}
+	#github {
+		background-image:url("../images/github_empty.png");
+	}
+	#github:hover {
+		background-image:url("../images/github_filled.png");
+	}
+	#instagram {
+		background-image:url("../images/instagram_empty.png");
+	}
+	#instagram:hover {
+		background-image:url("../images/instagram_filled.png");
+	}
+	#linkedIn {
+		background-image:url("../images/linkedIn_empty.png");
+	}
+	#linkedIn:hover {
+		background-image:url("../images/linkedIn_filled.png");
+	}
+	.socialButton {
+		display:inline-block;
+		background-color:rgba(255, 255, 255, 0);
+		background-size:cover;
+		border-color:rgba(255, 255, 255, 0);
+		width:4vw;
+		height:4vw;
+		outline:none;
+		bottom:0;
+	}
+	.socialButton:hover {
+		cursor:pointer;
+	}
+	
+	
+	/* Sections */
+	#intro {
+		background-color:rgba(255, 26, 26, 0.77);
+		min-width:40%;
+		max-width:80%;
+		font-family:"segoe ui";
+		font-size:3vh;
+		color:white;
+		text-shadow:2px 2px 1.5px black;
+		border-radius:10px;
+		text-align:center;
+		margin: 0 auto;
+		padding:0.5vh;
+		box-shadow:20px 20px 20px black;
+	}
+	#resumeSection {
+		margin-bottom:3vh;
+	}
+	#links {
+		text-align:center;
+	}
+	.section {
+		background-color:rgba(255, 26, 26, 0.77);
+		max-width:75vw;
+		font-size:3vh;
+		color:white;
+		border-radius:10px;
+		margin: 0 auto;
+		margin-bottom: 1vh;
+		padding:1vw;
+		box-shadow:20px 20px 20px black;
+		text-shadow:2px 2px 1.5px black;
+	}
+	.section2 {
+		background-color:rgba(255, 26, 26, 0.77);
+		max-width:60%;
+		font-size:3vh;
+		color:white;
+		border-radius:10px;
+		margin: 0 auto;
+		margin-bottom: 1vh;
+		padding:1vw;
+		box-shadow:20px 20px 20px black;
+		text-shadow:2px 2px 1.5px black;
+	}
+	
+	
+	/* Resume Page Styling */
+	#resumeDownload {
+		background: linear-gradient(to top, #248f24 0%, #2eb82e 100%);
+		border-radius:100px;
+		border-color:rgba(255, 255, 255, 0);
+		width:27vw;
+		font-family:"trebuchet ms";
+		font-size:2vw;
+		font-weight:bold;
+		text-transform:uppercase;
+		padding:1vh;
+		text-align:center;
+		margin: 0 auto;
+		color:#d9d9d9;
+		text-shadow:2px 2px 7px black;
+	}
+	#resumeDownload:hover {
+		background: linear-gradient(to top, #2eb82e 0%, #47d147 100%);
+		color:white;
+	}
+	.resumeImage {
+		width:5vh;
+		height:5vh;
+	}
+	
+	
+	/* Courses Page Styling */
+	#courseContainer {
+		display:flex;
+		justify-content:center;
+	}
+	#courseContent {
+		padding:10px;
+		width:475px;
+		text-align:center;
+		display:inline-block;
+		margin-right:10px;
+	}
+	#courseContent img {
+		height:250px;
+		width:450px;
+	}
+	
+	
+	/* Contact Form */
+	#messageField {
+		font-family:"segoe ui";
+		width:75vw;
+		height:20vh;
+		padding-top:2vh;
+	}
+	#submitButton {
+		background: linear-gradient(to top, #248f24 0%, #2eb82e 100%);
+		border-radius:100px;
+		border-color:rgba(255, 255, 255, 0);
+		font-family:"trebuchet ms";
+		font-size:2vw;
+		font-weight:bold;
+		text-transform:uppercase;
+		padding:1vh 4vw 1vh 4vw;
+		text-align:center;
+		margin: 0 auto;
+		color:#d9d9d9;
+		text-shadow:2px 2px 7px black;
+		outline:none;
+	}
+	#submitButton:hover {
+		background: linear-gradient(to top, #2eb82e 0%, #47d147 100%);
+		color:white;
+		cursor:pointer;
+	}
+	.inputForm {
+		border-color:rgba(255, 255, 255, 0);
+		width:75vw;
+		padding:0.5vw;
+		font-size:3vh;
+		font-weight:bolder;
+		border-radius: 25px;
+		outline:none;
+		margin-bottom:2vh;
+	}
+	.invalid {
+		border-color:rgb(255, 0, 0);
+		border-width:3px;
+	}
+	
+	/* Dropdown Menus */
+	.dropdownButton {
+		background: linear-gradient(to top, #990000 0%, #cc0000 100%);
+		border-color:rgba(255, 255, 255, 0);
+		border-radius:100px;
+		outline:none;
+		font-family:"trebuchet ms";
+		font-size:2vw;
+		font-weight:bold;
+		text-transform:uppercase;
+		padding:0.5vh 2vw 0.5vh 2vw;
+		text-align:center;
+		margin: 0 auto;
+		color:white;
+		text-shadow:2px 2px 7px black;
+		cursor:pointer;
+	}
+	.dropdownButton:hover {
+		background: linear-gradient(to top, #cc0000 0%, #ff0000 100%);
+	}
+	.content {
+		background-color: #1a0000;
+		border-radius:10px;
+		max-width:60vw;
+		max-height:0;
+		overflow: hidden;
+		transition: 0.7s ease-in-out;
+		opacity: 0;
+	}
+    .content.show {
+        opacity: 1;
+		max-height:20vh;
+        padding: 1vh;
+    }
+    .content.hide {
+        opacity: 0;
+        height: 0;
+    }
+	
+	/* Misc */
+	#recaptcha {
+		position:fixed;
+		bottom:5.5vh;
+	}
+	#copyright {
+		background-color:#1a0000;
+		position:absolute;
+		width:100%;
+		padding:0.5vw 0 0.5vw 0;
+		font-size:2.5vh;
+		color:white;
+		text-align:center;
+		bottom:0;
+	}
+	#scrollCopyright {
+		background-color:#1a0000;
+		width:100%;
+		padding:0.5vw 0 0.5vw 0;
+		font-size:2.5vh;
+		color:white;
+		text-align:center;
+		margin-top:5vh;
+	}
+	.unselectable {
+		user-drag: none; 
+		user-select: none;
+		-moz-user-select: none;
+		-webkit-user-drag: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+		pointer-events: none;
+	}
+	hr {
+		/*border-color:#660000;*/ /* Red (Default) */
+		border-color:black;
+		width:85%;
+		margin-bottom:7vh;
+	}
+	
+	/* Scrollbar */
+	::-webkit-scrollbar {
+		width: 20px;
+		color:black;
+		border-radius: 10px;
+	}
+	::-webkit-scrollbar-track {
+		box-shadow: inset 0 0 10px #1a0000;
+		border-radius: 10px;
+	}
+	::-webkit-scrollbar-thumb {
+	  background: linear-gradient(to top, #b30000 0%, #e60000 100%);
+	  border-radius: 100px;
+	}
+	

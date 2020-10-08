@@ -43,7 +43,7 @@ function projects() {
 	}
 }
 function courses() {
-	if(contactButton.classList.contains("clickable")) {
+	if(coursesButton.classList.contains("clickable")) {
 		window.location.href = "courses.html";
 	}
 }

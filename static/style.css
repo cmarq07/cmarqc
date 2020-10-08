@@ -21,13 +21,11 @@
 	
 	/* Menu Elements */
 	#menu {
-		background: linear-gradient(to top, #990000 0%, #cc0000 100%);
+		background: #cc0000;
 		padding:1vw;
-		box-shadow:0 15px 20px black;
 	}
 	.menuButton {
 		background-color:rgba(255, 255, 255, 0);
-		border-radius:100px;
 		border-color:rgba(255, 255, 255, 0);
 		display:inline-block;
 		font-family:"trebuchet ms";
@@ -37,7 +35,7 @@
 		text-transform:uppercase;
 		margin-right:1vw;
 		color:#d9d9d9;
-		text-shadow:2px 2px 7px black;
+		border-radius:8px;
 		
 	}
 	.menuButton:hover {
@@ -61,7 +59,6 @@
 		text-transform:uppercase;
 		text-align:center;
 		color:white;
-		text-shadow:5px 5px 5px black;
 	}
 	.subtitle {
 		color:white;
@@ -75,8 +72,8 @@
 		color:white;
 		font-size:3vh;
 		margin-right:1vw;
-		text-shadow:2px 2px 1px black;
 		text-decoration:none;
+		font-weight:bold;
 	}
 	.pageLink:hover {
 		text-decoration:underline;
@@ -85,7 +82,7 @@
 		color:white;
 	}
 	.pageLink:visited:hover {
-		color:red;
+		color:white;
 	}
 	.centerText {
 		text-align:center;
@@ -93,7 +90,6 @@
 	h2 {
 		font-size:5vh;
 		color:white;
-		text-shadow:2px 3px 0 #595959;
 	}
 	
 	
@@ -138,18 +134,16 @@
 	
 	/* Sections */
 	#intro {
-		background-color:rgba(255, 26, 26, 0.77);
+		background-color:#cc0000;
 		min-width:40%;
 		max-width:80%;
 		font-family:"segoe ui";
 		font-size:3vh;
+		font-weight:bold;
 		color:white;
-		text-shadow:2px 2px 1.5px black;
-		border-radius:10px;
 		text-align:center;
 		margin: 0 auto;
 		padding:0.5vh;
-		box-shadow:20px 20px 20px black;
 	}
 	#resumeSection {
 		margin-bottom:3vh;
@@ -161,32 +155,27 @@
 		background-color:rgba(255, 26, 26, 0.77);
 		max-width:75vw;
 		font-size:3vh;
+		font-weight:bold;
 		color:white;
-		border-radius:10px;
 		margin: 0 auto;
 		margin-bottom: 1vh;
 		padding:1vw;
-		box-shadow:20px 20px 20px black;
-		text-shadow:2px 2px 1.5px black;
 	}
 	.section2 {
 		background-color:rgba(255, 26, 26, 0.77);
 		max-width:60%;
 		font-size:3vh;
 		color:white;
-		border-radius:10px;
+		font-weight:bold;
 		margin: 0 auto;
 		margin-bottom: 1vh;
 		padding:1vw;
-		box-shadow:20px 20px 20px black;
-		text-shadow:2px 2px 1.5px black;
 	}
 	
 	
 	/* Resume Page Styling */
 	#resumeDownload {
 		background: linear-gradient(to top, #248f24 0%, #2eb82e 100%);
-		border-radius:100px;
 		border-color:rgba(255, 255, 255, 0);
 		width:27vw;
 		font-family:"trebuchet ms";
@@ -197,7 +186,7 @@
 		text-align:center;
 		margin: 0 auto;
 		color:#d9d9d9;
-		text-shadow:2px 2px 7px black;
+		border-radius:8px;
 	}
 	#resumeDownload:hover {
 		background: linear-gradient(to top, #2eb82e 0%, #47d147 100%);
@@ -218,13 +207,12 @@
 		padding:10px;
 		width:475px;
 		text-align:center;
-		background-color:black;
 		display:inline-block;
 		margin-right:10px;
 	}
 	#courseContent img {
 		height:250px;
-		width:250px;
+		width:450px;
 	}
 	
 	
@@ -234,10 +222,10 @@
 		width:75vw;
 		height:20vh;
 		padding-top:2vh;
+		border-radius:5px;
 	}
 	#submitButton {
-		background: linear-gradient(to top, #248f24 0%, #2eb82e 100%);
-		border-radius:100px;
+		background:#248f24;
 		border-color:rgba(255, 255, 255, 0);
 		font-family:"trebuchet ms";
 		font-size:2vw;
@@ -247,34 +235,33 @@
 		text-align:center;
 		margin: 0 auto;
 		color:#d9d9d9;
-		text-shadow:2px 2px 7px black;
 		outline:none;
+		border-radius:8px;
 	}
 	#submitButton:hover {
-		background: linear-gradient(to top, #2eb82e 0%, #47d147 100%);
+		background:#2eb82e;
 		color:white;
 		cursor:pointer;
 	}
 	.inputForm {
-		border-color:rgba(255, 255, 255, 0);
+		border-color:rgba(255,255,255,0);
 		width:75vw;
 		padding:0.5vw;
 		font-size:3vh;
 		font-weight:bolder;
-		border-radius: 25px;
 		outline:none;
 		margin-bottom:2vh;
+		border-radius:5px;
 	}
 	.invalid {
-		border-color:rgb(255, 0, 0);
+		border-color:#cc0000;
 		border-width:3px;
 	}
 	
 	/* Dropdown Menus */
 	.dropdownButton {
-		background: linear-gradient(to top, #990000 0%, #cc0000 100%);
+		background: #990000;
 		border-color:rgba(255, 255, 255, 0);
-		border-radius:100px;
 		outline:none;
 		font-family:"trebuchet ms";
 		font-size:2vw;
@@ -284,15 +271,14 @@
 		text-align:center;
 		margin: 0 auto;
 		color:white;
-		text-shadow:2px 2px 7px black;
 		cursor:pointer;
+		border-radius:8px;
 	}
 	.dropdownButton:hover {
-		background: linear-gradient(to top, #cc0000 0%, #ff0000 100%);
+		background: #cc0000;
 	}
 	.content {
 		background-color: #1a0000;
-		border-radius:10px;
 		max-width:60vw;
 		max-height:0;
 		overflow: hidden;
@@ -353,14 +339,11 @@
 	::-webkit-scrollbar {
 		width: 20px;
 		color:black;
-		border-radius: 10px;
 	}
 	::-webkit-scrollbar-track {
 		box-shadow: inset 0 0 10px #1a0000;
-		border-radius: 10px;
 	}
 	::-webkit-scrollbar-thumb {
-	  background: linear-gradient(to top, #b30000 0%, #e60000 100%);
-	  border-radius: 100px;
+	  background: #e60000;
 	}
 	
