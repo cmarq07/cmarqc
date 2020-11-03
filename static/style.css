@@ -269,7 +269,7 @@
 		text-transform:uppercase;
 		padding:0.5vh 2vw 0.5vh 2vw;
 		text-align:center;
-		margin: 0 auto;
+		margin-left:30px;
 		color:white;
 		cursor:pointer;
 		border-radius:8px;
@@ -281,9 +281,11 @@
 		background-color: #1a0000;
 		max-width:60vw;
 		max-height:0;
+		margin-left:30px;
 		overflow: hidden;
 		transition: 0.7s ease-in-out;
 		opacity: 0;
+		border-radius:8px;
 	}
     .content.show {
         opacity: 1;
