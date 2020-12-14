@@ -145,6 +145,12 @@
 		margin: 0 auto;
 		padding:0.5vh;
 	}
+	#doubleBreak {
+		content: "";
+		margin: 5em;
+		display: block;
+		font-size: 24%;
+	}
 	#resumeSection {
 		margin-bottom:3vh;
 	}
@@ -171,7 +177,35 @@
 		margin-bottom: 1vh;
 		padding:1vw;
 	}
-	
+	.portfolioSection {
+		background-color:rgba(255, 26, 26, 0.77);
+		max-width:75vw;
+		font-size:3vh;
+		font-weight:bold;
+		color:white;
+		margin: 0 auto;
+		margin-bottom: 1vh;
+		padding:1vw;
+	}
+	/* About Page */
+	#eportfolio {
+		background: linear-gradient(to top, #248f24 0%, #2eb82e 100%);
+		border-color:rgba(255, 255, 255, 0);
+		width:27vw;
+		font-family:"trebuchet ms";
+		font-size:2vw;
+		font-weight:bold;
+		text-transform:uppercase;
+		padding:1vh;
+		text-align:center;
+		margin: 0 auto;
+		color:#d9d9d9;
+		border-radius:8px;
+	}
+	#eportfolio:hover {
+		background: linear-gradient(to top, #2eb82e 0%, #47d147 100%);
+		color:white;
+	}
 	
 	/* Resume Page Styling */
 	#resumeDownload {
