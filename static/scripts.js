@@ -3,7 +3,6 @@ var homeButton = document.getElementById("homeButton");
 var aboutButton = document.getElementById("aboutButton");
 var resumeButton = document.getElementById("resumeButton");
 var projectsButton = document.getElementById("projectsButton");
-var ooursesButton = document.getElementById("coursesButton");
 var contactButton = document.getElementById("contactButton");
 var githubButton = document.getElementById("github");
 var instagramButton = document.getElementById("instagram");
@@ -14,7 +13,6 @@ homeButton.onclick = home;
 aboutButton.onclick = about;
 resumeButton.onclick = resume;
 projectsButton.onclick = projects;
-coursesButton.onclick = courses;
 contactButton.onclick = contact;
 githubButton.onclick = githubLink;
 instagramButton.onclick = instagramLink;
@@ -40,11 +38,6 @@ function resume() {
 function projects() {
 	if(projectsButton.classList.contains("clickable")) {
 		window.location.href = "projects.html";
-	}
-}
-function courses() {
-	if(coursesButton.classList.contains("clickable")) {
-		window.location.href = "courses.html";
 	}
 }
 function contact() {
