@@ -49,16 +49,16 @@
 	}
 	
 	.menuButton:hover {
-	    background: linear-gradient(to top, #ff1a1a 0%, #ff3333 100%);
+	    background: linear-gradient(to top, #8f1c1c 0%, #8f1c1c 100%);
 	    color: white;
 	}
 	
-	.currentMenuButton {
+	.menuButton.current {
 	    background: linear-gradient(to top, #545454 0%, #616161 100%);
 	    color: white;
 	}
 	
-	.currentMenuButton:hover {
+	.menuButton.current:hover {
 	    background: linear-gradient(to top, #545454 0%, #616161 100%);
 	}
 	
@@ -115,9 +115,7 @@
 	/* Social Media Elements */
 	
 	#socials {
-	    position: absolute;
-	    top: 0.5vh;
-	    right: 0;
+		float:right;
 	}
 	
 	#github {
@@ -160,15 +158,13 @@
 	}
 	/* Sections */
 	
-	#intro {
+	.intro.section {
 	    background-color: #cc0000;
-	    min-width: 40%;
-	    max-width: 80%;
-	    font-size: 3vh;
 	    color: white;
 	    text-align: center;
 	    margin: 0 auto;
-	    padding: 10px;
+		padding: 10px;
+		box-shadow:0 5px 10px black;
 	}
 	
 	#doubleBreak {
@@ -179,7 +175,8 @@
 	}
 	
 	#resumeSection {
-	    margin-bottom: 3vh;
+		margin-bottom: 3vh;
+		box-shadow:0 5px 10px black;
 	}
 	
 	#links {
@@ -193,7 +190,8 @@
 	    color: white;
 	    margin: 0 auto;
 	    margin-bottom: 1vh;
-	    padding: 1vw;
+		padding: 1vw;
+		box-shadow:0 5px 10px black;
 	}
 	
 	.section2 {
@@ -203,7 +201,8 @@
 	    color: white;
 	    margin: 0 auto;
 	    margin-bottom: 1vh;
-	    padding: 1vw;
+		padding: 1vw;
+		box-shadow:0 5px 10px black;
 	}
 	
 	.portfolioSection {
@@ -215,8 +214,8 @@
 	    margin-bottom: 1vh;
 	    padding: 1vw;
 	}
+
 	/* About Page */
-	
 	#eportfolio {
 	    background: linear-gradient(to top, #248f24 0%, #2eb82e 100%);
 	    border-color: rgba(255, 255, 255, 0);
@@ -234,8 +233,8 @@
 	    background: linear-gradient(to top, #2eb82e 0%, #47d147 100%);
 	    color: white;
 	}
+
 	/* Resume Page Styling */
-	
 	#resumeDownload {
 	    background: linear-gradient(to top, #248f24 0%, #2eb82e 100%);
 	    border-color: rgba(255, 255, 255, 0);
@@ -259,8 +258,8 @@
 	    width: 5vh;
 	    height: 5vh;
 	}
+
 	/* Courses Page Styling */
-	
 	#courseContainer {
 	    display: flex;
 	    justify-content: center;
@@ -278,8 +277,8 @@
 	    height: 250px;
 	    width: 450px;
 	}
+
 	/* Contact Form */
-	
 	#messageField {
 	    width: 75vw;
 	    height: 20vh;
@@ -315,15 +314,16 @@
 	    font-weight: 700;
 	    outline: none;
 	    margin-bottom: 2vh;
-	    border-radius: 5px;
+		border-radius: 5px;
+		box-shadow:0 5px 10px black;
 	}
 	
 	.invalid {
 	    border-color: #cc0000;
 	    border-width: 3px;
 	}
+
 	/* Dropdown Menus */
-	
 	.dropdownButton {
 	    background: #990000;
 	    border-color: rgba(255, 255, 255, 0);
@@ -364,8 +364,8 @@
 	    opacity: 0;
 	    height: 0;
 	}
+
 	/* Misc */
-	
 	#recaptcha {
 	    position: fixed;
 	    bottom: 5.5vh;
@@ -393,7 +393,6 @@
 	}
 	
 	.unselectable {
-	    user-drag: none;
 	    user-select: none;
 	    -moz-user-select: none;
 	    -webkit-user-drag: none;
@@ -409,8 +408,8 @@
 	    width: 85%;
 	    margin-bottom: 7vh;
 	}
+
 	/* Scrollbar */
-	
 	::-webkit-scrollbar {
 	    width: 20px;
 	    color: black;
@@ -446,7 +445,8 @@
 
 	    #socials {
 	        display: none;
-	    }
+		}
+		
 	    /* Dropdown Menus */
 	    .dropdownButton {
 	        font-size: 1.2em;
@@ -473,6 +473,8 @@
 	        opacity: 0;
 	        height: 0;
 		}
+
+		/* Misc */
 		#copyright {
 			position:relative;
 			bottom:0;

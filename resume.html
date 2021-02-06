@@ -16,15 +16,30 @@
 
 <body>
     <nav id="menu">
-        <div id="homeButton" class="menuButton clickable"><a title="Home">Home</a></div><span class="unselectable">
+        <div id="homeButton" class="menuButton clickable"><a>Home</a></div><span class="unselectable">
 		</span>
-        <div id="aboutButton" class="menuButton clickable"><a title="About">About</a></div><span class="unselectable">
+        <div id="aboutButton" class="menuButton clickable"><a>About</a></div><span class="unselectable">
 		</span>
-        <div id="resumeButton" class="menuButton currentMenuButton"><a title="Résumé">Résumé</a></div><span class="unselectable">
+        <div id="resumeButton" class="menuButton current"><a>Résumé</a></div><span class="unselectable">
 		</span>
-        <div id="projectsButton" class="menuButton clickable"><a title="Projects">Projects</a></div><span class="unselectable">
+        <div id="projectsButton" class="menuButton clickable"><a>Projects</a></div><span class="unselectable">
 		</span>
-        <div id="contactButton" class="menuButton clickable"><a title="Contact">Contact</a></div>
+        <div id="contactButton" class="menuButton clickable"><a>Contact</a></div>
+
+        <!--Social Media Buttons-->
+        <div id="socials">
+            <a title="GitHub">
+                <div id="github" class="socialButton" aria-label="Github Link"></div>
+            </a><span class="unselectable">
+            </span>
+            <a title="Instagram">
+                <div id="instagram" class="socialButton" aria-label="Instagram Link"></div>
+            </a><span class="unselectable">
+            </span>
+            <a title="LinkedIn">
+                <div id="linkedIn" class="socialButton" aria-label="LinkedIn Link"></div>
+            </a>
+        </div>
     </nav>
 
     <h1 id="title">Résumé</h1>
@@ -43,6 +58,7 @@
         <h2 class="centerText">Key Skills</h2>
         <p class="section centerText">Java, HTML, CSS, JavaScript, Teamwork, Leadership
     </section>
+
     <!-- Education Section -->
     <section id="educationSection">
         <h2 class="centerText">Education</h2>
@@ -72,6 +88,27 @@
 			</text>
                 </div>
     </section>
+
+    <!-- Experience Section -->
+    <section id="experienceSection">
+        <h2 class="centerText">Work Experience</h2>
+        <p>
+            <div class="section"><img src="./images/microsoft.png" class="resumeImage" alt="microsoft"> Microsoft || Redmond, WA || June 2021 - September 2021
+                <br><text class="subtitle">Explore Intern</text>
+                <br><text class="subtext">• Work on projects using the main development
+                    cycle, Design, Build, & Quality
+                <br><text class="subtext">• Gain experience with software development,
+                    engineering, and product management over 12 weeks
+		</div>
+		<div class="section"><img src="./images/sano.png" class="resumeImage" alt="sano">
+			Sano Café || Mercer Island, WA || January 2018 - June 2019
+			<br><text class="subtitle">Café Attendant</text>
+                <br><text class="subtext">• Learned to work with customers often
+				<br>• Learned cashiering and food prep
+				<br>• Worked managerial roles as closing lead</text>
+            </div>
+    </section>
+
     <!-- Organizations Section -->
     <section id="organizationsSection">
         <h2 class="centerText">Organizations</h2>
@@ -90,23 +127,8 @@
 			</text>
                 </div>
     </section>
-    <!-- Experience Section -->
-    <section id="experienceSection">
-        <h2 class="centerText">Work Experience</h2>
-        <p>
-            <div class="section"><img src="./images/microsoft.png" class="resumeImage" alt="microsoft"> Microsoft || Redmond, WA || June 2021 - September 2021
-                <br><text class="subtitle">Explore Intern</text>
-                <br><text class="subtext">• Not yet started
-		</div>
-		<div class="section"><img src="./images/sano.png" class="resumeImage" alt="sano">
-			Sano Café || Mercer Island, WA || January 2018 - June 2019
-			<br><text class="subtitle">Café Attendant</text>
-                <br><text class="subtext">• Learned to work with customers often
-				<br>• Learned cashiering and food prep
-				<br>• Worked managerial roles as closing lead</text>
-            </div>
-    </section>
 
+    <!-- Volunteering Section -->
     <section id="volunteeringSection">
         <h2 class="centerText">Volunteering</h2>
         <p>
@@ -122,22 +144,6 @@
 				<br>• Ran clock/kept score during games and assisted with playcalling</text>
                 </div>
     </section>
-
-
-    <!--Social Media Buttons-->
-    <div id="socials">
-        <a title="GitHub">
-            <div id="github" class="socialButton"></div>
-        </a><span class="unselectable">
-		</span>
-        <a title="Instagram">
-            <div id="instagram" class="socialButton"></div>
-        </a><span class="unselectable">
-		</span>
-        <a title="LinkedIn">
-            <div id="linkedIn" class="socialButton"></div>
-        </a>
-    </div>
 
     <div id="scrollCopyright">
         <strong>© 2020 Christian Calloway</strong> - All Rights Reserved
