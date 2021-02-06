@@ -22,7 +22,7 @@ linkedInButton.onclick = linkedInLink;
 //Menu Button Functions
 function home() {
 	if(homeButton.classList.contains("clickable")) {
-		window.location.href = "https://www.cmarqc.com";
+		window.location.href = "index.html";
 	}
 }
 function about() {

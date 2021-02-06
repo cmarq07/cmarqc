@@ -93,7 +93,7 @@
 	}
 	
 	.pageLink:hover {
-	    text-decoration: underline;
+	    border-bottom:2px solid white;
 	}
 	
 	.pageLink:visited {
@@ -336,7 +336,8 @@
 	    margin-left: 30px;
 	    color: white;
 	    cursor: pointer;
-	    border-radius: 8px;
+		border-radius: 8px;
+		box-shadow:0 5px 10px black;
 	}
 	
 	.dropdownButton:hover {
