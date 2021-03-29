@@ -477,11 +477,6 @@
 		.menuButton {
 			font-size:1.2em;
 		}
-		
-		.menuButton:hover {
-			background: linear-gradient(to top, #ff1a1a 0%, #ff3333 100%);
-			color: white;
-		}
 
 	    #socials {
 	        display: none;
