@@ -3,7 +3,7 @@ import PageHeader from '../Components/PageHeader'
 
 function About() {
     return (
-        <div>
+        <div className='centered maxWidth'>
             <PageHeader title="About" />
             <div id="overview">
                 <h2>Overview</h2>

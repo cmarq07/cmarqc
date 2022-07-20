@@ -141,6 +141,7 @@
     background-size: contain;
 }
 
+/* Scroll to Top Button */
 .scrollTopNone {
     display: none;
 }
@@ -167,6 +168,7 @@
     font-size: 2em;
 }
 
+/* General */
 hr {
     width: 100%;
     margin: 20px;

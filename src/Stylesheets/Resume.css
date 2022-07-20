@@ -43,9 +43,14 @@
     border: none;
     border-radius: 5px;
     padding: 10px;
+    margin: 0;
+}
+
+.button a {
     color: var(--text-light);
     font-size: 1.5em;
     font-weight: 900;
+    text-decoration: none;
 }
 
 .button.download:hover {
@@ -100,4 +105,8 @@
 .itemText {
     margin-right: 5px;
     font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    
 }

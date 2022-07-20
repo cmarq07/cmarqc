@@ -2,10 +2,10 @@
 function Home() {
 
     return (
-        <div>
+        <div className="centered">
             <h1>Welcome!</h1>
 
-            <div className="contentBox">
+            <div className="contentBox fit">
                 <p>
                     Hello there! My name is Christian Calloway and I am currently interning at Microsoft as a Software Engineer.
                 </p>
@@ -15,7 +15,7 @@ function Home() {
                 </p>
             </div>
 
-            <div className="contentBox">
+            <div className="contentBox fit">
                 <p>
                     I built this site from scratch using React, HTML, CSS, and JavaScript.
                 </p>

@@ -69,3 +69,19 @@ h4 {
     text-decoration: none;
     color: var(--text-light);
 }
+
+/* Modifiers */
+.fit {
+    width: fit-content;
+    display: flex;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maxWidth {
+    width: 100%;
+}

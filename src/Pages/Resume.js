@@ -34,12 +34,15 @@ function Resume() {
     let volunteerDivs = generateVolunteeringDivs()
 
     return (
-        <div style={{ width: "100%" }}>
+        <div className="centered maxWidth">
             <PageHeader title="Resume" />
-            <div id="menu">
-                <a href={ResumePDF} target="_blank" rel="noreferrer" className="button download" >
-                    View / Download Resume (PDF)
-                </a>
+            <div id="menu" className="centered">
+                <div className="button download">
+                    <a href={ResumePDF} target="_blank" rel="noreferrer">
+                        View / Download Resume (PDF)
+                    </a>
+                </div>
+
                 <h2>Quick Links</h2>
                 <div className="quick-links">
                     <a href="#education" onClick={e => {
