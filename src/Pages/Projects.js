@@ -1,6 +1,3 @@
-// Import Libraries
-import { motion } from "framer-motion"
-
 // Import Components
 import PageHeader from '../Components/PageHeader'
 

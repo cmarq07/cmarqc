@@ -1,6 +1,3 @@
-// Import Libraries
-import { motion } from "framer-motion"
-
 // Import Components
 import PageHeader from "../Components/PageHeader"
 
@@ -40,9 +37,9 @@ function Resume() {
         <div style={{ width: "100%" }}>
             <PageHeader title="Resume" />
             <div id="menu">
-                <motion.a href={ResumePDF} target="_blank" rel="noreferrer" className="button download" >
+                <a href={ResumePDF} target="_blank" rel="noreferrer" className="button download" >
                     View / Download Resume (PDF)
-                </motion.a>
+                </a>
                 <h2>Quick Links</h2>
                 <div className="quick-links">
                     <a href="#education" onClick={e => {
