@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+// Import Libraries
+import { BrowserRouter } from 'react-router-dom'
+
+// Import Stylesheets
+import './Stylesheets/Main.css'
+
+// Import Components
+import Header from './Components/Global/Header'
+import Footer from './Components/Global/Footer'
+import Router from './Components/Global/Router'
+import ScrollTopButton from './Components/Global/ScrollTopButton'
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    <BrowserRouter>
+      <div id="container">
+        <Header />
+        <Router />
+        <ScrollTopButton />
+        <Footer />
+      </div>
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App
