@@ -6,13 +6,7 @@ import PageHeader from '../Components/PageHeader'
 
 function About() {
     return (
-        <motion.div
-            className="body"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 1.5 }}
-        >
+        <div>
             <PageHeader title="About" />
             <div id="overview">
                 <h2>Overview</h2>
@@ -49,7 +43,7 @@ function About() {
                     </ul>
                 </div>
             </div>
-        </motion.div>
+        </div>
     )
 }
 

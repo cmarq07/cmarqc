@@ -1,10 +1,13 @@
+// Import Libraries
+import { motion } from "framer-motion"
+
+// Import Components
+import PageHeader from '../Components/PageHeader'
 
 function Projects() {
     return (
-        <div className="body">
-            <p>
-                Projects
-            </p>
+        <div style={{ width: "100%" }}>
+            <PageHeader title="Projects" />
         </div>
     )
 }

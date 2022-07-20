@@ -5,13 +5,7 @@ function Home() {
     
 
     return (
-        <motion.div
-            className="body home"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 1.5 }}
-        >
+        <div>
             <h1>Welcome!</h1>
 
             <div className="contentBox">
@@ -32,7 +26,7 @@ function Home() {
                     You can explore some different pages, such as my about page, resume, and projects. You can also contact me about any content you see on the website!
                 </p>
             </div>
-        </motion.div>
+        </div>
     )
 }
 

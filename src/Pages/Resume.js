@@ -1,3 +1,6 @@
+// Import Libraries
+import { motion } from "framer-motion"
+
 // Import Components
 import PageHeader from "../Components/PageHeader"
 
@@ -7,6 +10,7 @@ import { Skills } from "../Data/Skills"
 import { Experiences } from "../Data/Experiences"
 import { Organizations } from "../Data/Organizations"
 import { Volunteering } from "../Data/Volunteering"
+import ResumePDF from "../Data/Resume.pdf"
 
 // Import Images / Icons
 import UW from '../Images/Schools/uws.png'
@@ -20,8 +24,8 @@ import YEOC from '../Images/Orgs/yeoc.png'
 
 import { DiJava, DiPython, DiSwift, DiReact, DiHtml5, DiCss3, DiJavascript1 } from 'react-icons/di'
 import { SiCsharp } from 'react-icons/si'
-import Kusto from "../Images/Icons/Kusto"
-import SQL from "../Images/Icons/SQL"
+import Kusto from '../Images/Icons/Kusto'
+import SQL from '../Images/Icons/SQL'
 
 function Resume() {
 
@@ -33,13 +37,13 @@ function Resume() {
     let volunteerDivs = generateVolunteeringDivs()
 
     return (
-        <div className="body">
+        <div style={{ width: "100%" }}>
             <PageHeader title="Resume" />
             <div id="menu">
-                <button className="button download">
-                    Download Resume (PDF)
-                </button>
-                <h3>Quick Links</h3>
+                <motion.a href={ResumePDF} target="_blank" rel="noreferrer" className="button download" >
+                    View / Download Resume (PDF)
+                </motion.a>
+                <h2>Quick Links</h2>
                 <div className="quick-links">
                     <a href="#education" onClick={e => {
                         e.preventDefault();
