@@ -10,6 +10,7 @@ import Resume from '../../Pages/Resume'
 import Projects from '../../Pages/Projects'
 import Contact from '../../Pages/Contact'
 import Page from '../../Pages/Page'
+import NotFound from '../../Pages/NotFound'
 
 function Router() {
   // Use location for routing animations
@@ -25,6 +26,7 @@ function Router() {
           <Route path="resume" element={<Page title="Resume"><Resume/></Page>} />
           <Route path="projects" element={<Page title="Projects"><Projects/></Page>} />
           <Route path="contact" element={<Page title="Contact"><Contact/></Page>} />
+          <Route path="*" element={<Page title="Not Found"><NotFound/></Page>} />
         </Route>
       </Routes>
       </div>

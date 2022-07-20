@@ -36,6 +36,9 @@ h4 {
     font-size: 1.15em;
     margin: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contentBox.list {
@@ -46,4 +49,23 @@ h4 {
 
 .contentBox:last-child {
     margin: 20px 20px 0 20px
+}
+
+.button {
+    padding: 20px;
+    background-color: #248f24;
+    width: fit-content;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #149f14;
+}
+
+.button .text {
+    font-size: 2em;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--text-light);
 }

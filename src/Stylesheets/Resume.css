@@ -51,6 +51,7 @@
 .button.download:hover {
     cursor: pointer;
     padding: 15px;
+    background-color: #149f14;
 }
 
 .quick-links {
