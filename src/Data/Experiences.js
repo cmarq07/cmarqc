@@ -4,9 +4,9 @@ export const Experiences = [
         "shortcode": "ms",
         "location": "Hybrid / Redmond, WA",
         "beginDate": "June 2022",
-        "title": "Software Engineer Intern",
+        "title": "MSRC Software Engineer Intern",
         "items": [
-            "Microsoft"
+            "Worked with the Microsoft Security Response Center (MSRC) and integrated into a hybrid team setting, attending in-person and virtual meetings & stand-ups"
         ]
     },
 
