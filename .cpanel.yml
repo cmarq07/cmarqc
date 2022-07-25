@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/h57qevr5glod/public_html/cmarqc.com/
-    - /bin/cp -R * $DEPLOYPATH
