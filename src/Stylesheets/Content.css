@@ -52,15 +52,16 @@ h4 {
 }
 
 .button {
-    padding: 20px;
-    background-color: #248f24;
+    padding: 10px 30px 10px 30px;
+    background-color: var(--dark-red);
     width: fit-content;
     margin: 20px;
     border-radius: 10px;
 }
 
 .button:hover {
-    background-color: #149f14;
+    background-color: var(--red);
+    cursor: pointer;
 }
 
 .button .text {

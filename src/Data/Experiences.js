@@ -16,10 +16,11 @@ export const Experiences = [
         "location": "Virtual",
         "beginDate": "June 2021",
         "endDate": "September 2021",
-        "title": "Explore Intern",
+        "title": "MSRC Explore Intern",
         "items": [
-            "Worked on projects using the main development cycle, Design, Build, & Quality",
-            "Gained experience with software development, engineering, and product management over 12 weeks"
+            "Worked with the Microsoft Security Response Center (MSRC) and integrated into a virtual team setting, attending meetings & stand-ups",
+            "Developed the MSRC Researcher Portal mobile application using Xamarin Forms",
+            "Gained experience with software development, engineering, and product management over 12 weeks",
         ]
     },
 

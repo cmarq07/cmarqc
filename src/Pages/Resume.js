@@ -63,7 +63,7 @@ function Resume() {
                     }} className="link-ref">Volunteering</a>
                 </div>
             </div>
-            <div style={{ width: "100%" }}>
+            <div className="maxWidth">
                 {/* Key Skills */}
                 <div id="keySkills">
                     <h2>Key Skills</h2>

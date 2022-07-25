@@ -1,0 +1,38 @@
+.link {
+    color: var(--text-light);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.link:hover {
+    border-bottom: 2px solid var(--text-light);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formInput {
+    background-color: var(--text-light);
+    font-size: 1.25em;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.formInput.textarea {
+    font-size: 1.5em;
+    font-family: "IBM Plex Sans", Arial, Helvetica, sans-serif;
+    min-height: 150px;
+}
+
+.large {
+    font-size: 2em;
+    width: 30%;
+    color: var(--text-light);
+    font-weight: 700;
+}
+
