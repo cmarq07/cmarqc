@@ -1,0 +1,24 @@
+.contentBox.project {
+    margin: 5px;
+    background-color: var(--very-dark-red);
+    display: flex;
+    flex-direction: row;
+}
+
+.contentBox.project-inactive {
+    display: none;
+}
+
+.contentBox.project .description {
+
+}
+
+.projectLink {
+    color: var(--text-darker);
+    text-decoration: none;
+}
+
+.projectLink:hover {
+    color: var(--text-light);
+    border-bottom: 2px solid var(--text-light);
+}
