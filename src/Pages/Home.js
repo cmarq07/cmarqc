@@ -3,7 +3,7 @@ function Home() {
 
     return (
         <div className="centered">
-            <h1>Welcome!</h1>
+            <h1 style={{ marginBottom: "0px", marginTop: "20px" }}>Welcome!</h1>
 
             <div className="contentBox fit">
                 <p>
