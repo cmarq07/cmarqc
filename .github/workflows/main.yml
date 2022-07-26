@@ -4,25 +4,26 @@ on:
       - main
 name: 🚀 Deploy to cPanel
 jobs:
-  web-deploy: ✅ Deploy
-  runs-on: ubuntu-latest
-  steps:
-  - name: 🚚 Get Latest Code
-    uses: actions/checkout@v2
+  web-deploy: 
+    name: ✅ Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get Latest Code
+      uses: actions/checkout@v2
 
-  - name: 🔧 Use Node.js 14
-    uses: actions/setup-node@v2
-    with:
-      node-version: '14'
+    - name: 🔧 Use Node.js 14
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
 
-  - name: 🔨 Build React Project
-    run: |
-        npm install
-        npm run build
+    - name: 🔨 Build React Project
+      run: |
+          npm install
+          npm run build
 
-  - name: 📂 Sync Files
-    uses: SamKirkland/FTP-Deploy-Action@4.3.0
-    with:
-      server: ${{ secrets.FTP_SERVER }}
-      username: ${{ secrets.FTP_USERNAME }}
-      password: ${{ secrets.FTP_PASSWORD }}
+    - name: 📂 Sync Files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
