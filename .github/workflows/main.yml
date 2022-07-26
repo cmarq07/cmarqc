@@ -27,6 +27,6 @@ jobs:
         server: ftp.cinomalal.com
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        server-dir: /public_html/cmarqc.com
+        server-dir: /public_html/cmarqc.com/
         protocol: ftps
         port: 21
