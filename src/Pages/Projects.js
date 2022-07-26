@@ -1,7 +1,3 @@
-// Import Libraries
-import { useState } from 'react'
-import { motion } from 'framer-motion'
-
 // Import Components
 import PageHeader from '../Components/PageHeader'
 import ProjectDiv from '../Components/Projects/ProjectDiv'
@@ -9,12 +5,7 @@ import ProjectDiv from '../Components/Projects/ProjectDiv'
 // Import Data
 import { ProjectData } from '../Data/ProjectData.js'
 
-// Import Images
-import home from '../Images/home.jpg'
-
 function Projects() {
-
-    const [projectToggle, setProjectToggle] = useState(false)
 
     let projects = generateProjectSections()
 
@@ -51,6 +42,8 @@ function generateProjectSections() {
         let projects = projectArea.projects.map((project) => {
             if (project) {
                 return <ProjectDiv currentProject={project} key={project.name}/>
+            } else {
+                return <></>
             }
         })
 
