@@ -27,5 +27,6 @@ jobs:
         server: cinomalal.com
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
+        server-dir: /cmarqq.com/
         protocol: ftp
         port: 21
