@@ -16,13 +16,13 @@ jobs:
       node-version: '14'
 
   - name: 🔨 Build React Project
-      run: |
+    run: |
         npm install
         npm run build
 
   - name: 📂 Sync Files
-      uses: SamKirkland/FTP-Deploy-Action@4.3.0
-      with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
+    uses: SamKirkland/FTP-Deploy-Action@4.3.0
+    with:
+      server: ${{ secrets.FTP_SERVER }}
+      username: ${{ secrets.FTP_USERNAME }}
+      password: ${{ secrets.FTP_PASSWORD }}
