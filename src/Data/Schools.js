@@ -18,7 +18,7 @@ export const Schools = [
             {
                 "type": "courses",
                 "courses": [
-                    "CSE 143, CSE 373, INFO 201, INFO 330, INFO 340, INFO 430, INFO 441, INFO 442, INFO 449, INFO Capstone"
+                    "Computer Programming II, Data Structures & Algorithms, Foundational Skills for Data Science, Databases & Data Modeling, Client-Side Development (Web), Database Design & Management, Server-Side Development (Web), Cooperative Software Development, iOS Mobile Development, INFO Capstone"
                 ]
             }
         ]

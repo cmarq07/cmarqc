@@ -4,9 +4,12 @@ export const Experiences = [
         "shortcode": "ms",
         "location": "Hybrid / Redmond, WA",
         "beginDate": "June 2022",
+        "endDate": "September 2022",
         "title": "MSRC Software Engineer Intern",
         "items": [
-            "Worked with the Microsoft Security Response Center (MSRC) and integrated into a hybrid team setting, attending in-person and virtual meetings & stand-ups"
+            "Worked with the Microsoft Security Response Center (MSRC) in a hybrid team setting, attending in-person and virtual meetings & stand-ups",
+            "Worked on proprietary Security Orchestration and Automated Response (SOAR) implementations used for Azure internal services",
+            "Created a C# console application that displays web-based diagrams of PowerShell / Python script logic and statistics relating to decision outcomes"
         ]
     },
 
